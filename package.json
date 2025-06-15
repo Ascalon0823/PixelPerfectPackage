@@ -1,0 +1,6 @@
+{
+  "name": "studio.arkademy.pixelperfect",
+  "displayName": "Pixel Perfect Package",
+  "version": "1.0.0",
+  "description": "Pixel perfect camera and canvas to auto adjust ortho scale"
+}
