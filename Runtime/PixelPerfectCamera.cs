@@ -47,7 +47,7 @@ namespace ArkademyStudio.PixelPerfect
         {
             return (Vector2)transform.position + Random.insideUnitCircle.normalized * (camRect.size.magnitude/2f *
                 Random.Range(1f,
-                    Mathf.Min(1f, maxDistanceMultiplier)));
+                    Mathf.Max(1f, maxDistanceMultiplier)));
         }
 
         protected virtual void Update()
